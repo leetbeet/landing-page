@@ -1,1 +1,1 @@
-# landing-page
+This is a simple HTML/CSS project with an emphasis on flexbox.
