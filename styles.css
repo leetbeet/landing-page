@@ -74,8 +74,8 @@ h3 {
 }
 
 .info-image {
-    height: 160px;
-    width: 160px;
+    height: 170px;
+    width: 170px;
 }
 
 .main {
@@ -85,6 +85,31 @@ h3 {
 
 .main-text {
     width: 450px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 128px 0 100px;
+}
+
+.quote-text {
+    width: 812px;
+}
+
+.quote-author {
+    text-align: right;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 20px;
 }
 
 button {
