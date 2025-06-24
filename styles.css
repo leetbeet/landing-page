@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     gap: 128px;
-    padding: 8px 200px 100px;
+    padding: 20px 200px 100px;
 }
 
 .hero-secondary {
