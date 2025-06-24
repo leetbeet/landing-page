@@ -43,10 +43,39 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 h3 {
     font-size: 24px;
     color: #F9FAF8;
 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 48px 48px 96px;
+}
+
+.info-bits {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 50px;
+    max-width: 200px;
+    text-align: center;
+    color: rgb(97, 97, 97);
+}
+
+.info-image {
+    height: 160px;
+    width: 160px;
 }
 
 .main {
