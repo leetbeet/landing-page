@@ -1,7 +1,20 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    gap: 128px;
+    padding: 8px 200px 100px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header {
@@ -16,11 +29,42 @@ ul {
     margin: 0;
 }
 
+li {
+    padding-left: 24px;
+}
+
 h1, h2, h3, p {
     margin: 0;
 }
 
-main {
-    display: flex;
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text {
+    width: 450px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 6px 32px;
+    margin: 12px 0;
+}
+
 
