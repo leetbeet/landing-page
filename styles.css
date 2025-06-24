@@ -151,4 +151,9 @@ footer {
     padding: 32px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
